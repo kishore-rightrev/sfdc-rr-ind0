@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carves_Currency_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Carves Currency Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>Functional</fullName>
+                <default>false</default>
+                <label>Functional</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

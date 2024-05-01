@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carvs_Rev_Recog_Till_Prior_Prd__c</fullName>
+    <externalId>false</externalId>
+    <label>Carvs Rev Recog Till Prior Prd</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

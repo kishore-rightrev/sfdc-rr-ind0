@@ -1,0 +1,23 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Revenue Recognition",
+      "versionName": "1.1.0",
+      "versionNumber": "1.1.0.NEXT",
+      "versionDescription": "",
+      "ancestorId": "Revenue Recognition@1.0.0-1"
+    }
+  ],
+  "namespace": "RRIND",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "Revenue Recognition": "0HoRg00000003SXKAY",
+    "Revenue Recognition@1.0.0-1": "04tRg0000004iYjIAI",
+    "Revenue Recognition@1.1.0-1": "04tRg0000004kFZIAY",
+    "Revenue Recognition@1.1.0-2": "04tRg0000004kKPIAY",
+    "Revenue Recognition@1.1.0-3": "04tRg0000004kM1IAI"
+  }
+}

@@ -1,0 +1,45 @@
+<html lang="en" style="height: 100%; width: 100%">
+
+<head>
+    <title>Email Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body
+    style=" margin: 0; padding: 0; background-color: #f8f8f8; height: 100%; font-family: Helvetica, Arial, sans-serif; ">
+    <center><br />
+        <div style="width: auto; margin: 30px 0px"><img src="https://rightrev-dev-ed.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0685Y00000yOcLT&operationContext=DELIVERY&contentId=05T5Y00002wvq4W&page=0&d=/a/5Y000002N7q3/472WpK2kKH.WduwXqBrrHzHMKhbjVaGqtRHq7p9nogQ&oid=00D5Y000001bOUz&dpt=null&viewId="
+                alt="rightrev" style="width: auto; height:100px" />
+        </div>
+        <div style="height: 80%; margin: 30px 0px">
+            <div style=" width: 700px; padding: 32px; background-color: #ffffff; box-shadow: 0px 2px 5px #e4e3e3; ">
+                <div
+                    style=" padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; text-align: left; ">
+                    <div
+                        style=" padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; text-align: left; ">
+                        Hello,<br /><br />
+                        Following post-upgrade script execution completed. Please find the results below (details on success/failed records).
+                        <div
+                            style=" padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; text-align: left; ">
+                            <strong>Organization Id : </strong>{!Organization.Id}<br />
+                            <strong>Organization Name : </strong>{!Organization.Name}<br />
+                            <strong>Organization URL : </strong><a href = {!URL}>{!OrganizationURL}</a><br />
+                            <strong>Class Name : </strong>className<br />
+                            <strong>Activity : </strong>methodName<br />
+                        </div>
+                        <p>{!Message}</p>
+                        <p><br />Thanks,<br />RightRev Team</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                style=" margin: 20px; font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color: #666666; text-align: center; ">
+                &copy; 2021 RightRev. All rights reserved.<br /> 2350 Mission College Blvd., Ste. 246, Santa Clara, CA -
+                95054 </div>
+            <br />
+        </div>
+    </center>
+</body>
+
+</html>

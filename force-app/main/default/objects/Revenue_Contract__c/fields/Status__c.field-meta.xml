@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Identify Contract</fullName>
+                <default>false</default>
+                <label>Identify Contract</label>
+            </value>
+            <value>
+                <fullName>Identify POB&apos;s</fullName>
+                <default>false</default>
+                <label>Identify POB&apos;s</label>
+            </value>
+            <value>
+                <fullName>Calculate Transaction Price</fullName>
+                <default>false</default>
+                <label>Calculate Transaction Price</label>
+            </value>
+            <value>
+                <fullName>Allocate Transaction Price</fullName>
+                <default>false</default>
+                <label>Allocate Transaction Price</label>
+            </value>
+            <value>
+                <fullName>Recognize Revenue</fullName>
+                <default>false</default>
+                <label>Recognize Revenue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

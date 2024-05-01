@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Schedule_Type__c</columns>
+    <columns>Waterfall_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>Revenue_Contract_GUID__c</columns>
+    <columns>Accounting_Period__c</columns>
+    <columns>Period_Label__c</columns>
+    <columns>Waterfall_Period__c</columns>
+    <columns>Year__c</columns>
+    <columns>Transaction_Currency__c</columns>
+    <columns>Transaction_Amount__c</columns>
+    <columns>Functional_Currency__c</columns>
+    <columns>Functional_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

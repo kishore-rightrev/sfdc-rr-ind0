@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting</fullName>
+    <active>true</active>
+    <label>Reporting</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Carves Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractual Revenue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

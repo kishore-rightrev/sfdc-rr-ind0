@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MJE_RC</fullName>
+    <active>true</active>
+    <label>MJE RC</label>
+    <picklistValues>
+        <picklist>Carves_Currency_Type__c</picklist>
+        <values>
+            <fullName>Functional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RC_Position__c</picklist>
+        <values>
+            <fullName>Contract_Asset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract_Liability</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Allocate Transaction Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculate Transaction Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify POB%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recognize Revenue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

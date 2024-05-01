@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template to be used when post upgrade scripts run from RightRev package.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RightRev Post Upgrade Status</name>
+    <style>none</style>
+    <subject>Post Upgrade Script Status</subject>
+    <textOnly>Email Template
+
+
+Hello,
+
+Following post-upgrade script execution completed. Please find the results below (details on success/failed records).
+Organization Id : {!Organization.Id}
+Organization Name : {!Organization.Name}
+Organization URL : {!OrganizationURL}
+Class Name : className
+Activity : methodName
+
+{!Message}
+
+
+Thanks,
+RightRev Team
+
+© 2021 RightRev. All rights reserved.
+2350 Mission College Blvd., Ste. 246, Santa Clara, CA - 95054</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
