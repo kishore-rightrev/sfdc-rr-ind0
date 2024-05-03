@@ -4,15 +4,10 @@ public class QueryServiceTest {
     static void queryTest() {
         String nameSpaceString = Utility.getNameSpace();
         List<string> fieldList = new List<string>();
-        List<string> subList = new List<string>();
-        Map<String, List<String>> subMap = new Map<String, List<String>>();
         String name = 'Name';
         fieldList.add(name);
         String revenue = 'Revenue_Contract__c';
         String revenueLine = 'Revenue_Contract_Lines__r';
-        subList.add('Line_Term__c');
-        subList.add('CurrencyIsoCode');
-        subMap.put(revenueLine, subList);
         String filter = 'Name != null';
         Integer num = 2;
         String order = 'Line_Term__c ASC';

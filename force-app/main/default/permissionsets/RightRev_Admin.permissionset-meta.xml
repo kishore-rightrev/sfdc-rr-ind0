@@ -1657,18 +1657,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
-        <recordType>Line_Met_Dimension__c.Functional</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Line_Met_Dimension__c.Reporting</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Line_Met_Dimension__c.Transaction</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <recordType>Revenue_Contract__c.MJE_RC</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -1680,4 +1668,8 @@
         <recordType>Revenue_Contract__c.RC</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabSettings>
+        <tab>Revenue_Contract__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

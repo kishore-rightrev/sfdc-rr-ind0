@@ -34,5 +34,9 @@
         <members>RightRev_Email_Templates</members>
         <name>EmailFolder</name>
     </types>
+    <types>
+        <members>Revenue_Contract__c</members>
+        <name>CustomTab</name>
+    </types>
     <version>59.0</version>
 </Package>

@@ -8,6 +8,14 @@
       "versionNumber": "1.1.0.NEXT",
       "versionDescription": "",
       "ancestorId": "Revenue Recognition@1.0.0-1"
+    },
+    {
+      "path": "force-app",
+      "package": "RightRev RevRec 2.0",
+      "versionName": "0.1.0",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "namespace": "RRIND",
@@ -18,6 +26,10 @@
     "Revenue Recognition@1.0.0-1": "04tRg0000004iYjIAI",
     "Revenue Recognition@1.1.0-1": "04tRg0000004kFZIAY",
     "Revenue Recognition@1.1.0-2": "04tRg0000004kKPIAY",
-    "Revenue Recognition@1.1.0-3": "04tRg0000004kM1IAI"
+    "Revenue Recognition@1.1.0-3": "04tRg0000004kM1IAI",
+    "Revenue Recognition@1.1.0-4": "04tRg0000004lmjIAA",
+    "Revenue Recognition@1.1.0-5": "04tRg0000004loLIAQ",
+    "RightRev RevRec 2.0": "0HoRg00000003U9KAI",
+    "RightRev RevRec 2.0@0.1.0-1": "04tRg0000004mIzIAI"
   }
 }
